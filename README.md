@@ -37,8 +37,38 @@ Start the Frontend
 cd frontend
 npm start
 
+PROJECT STRUCTURE:
+
+Backend
+├── config/
+│   └── passport.js
+├── models/
+│   └── User.js
+├── routes/
+│   └── auth.js
+│   └── invoice.js
+├── .env
+├── index.js.
+├── package.json
+├── webhook.js
+
+Frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Invoices.js
+│   │   │   └── Login.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── index.js
+│   ├── config.js
+│   └── package.json
+├── README.md
+└── ...
+
+
 NOTE:
 I have my own your_google_client_id`, `your_google_client_secret`, `your_mongo_db_uri`, and `your_zapier_webhook_url but here I have not provided due to security reasons.
+
 
 Make sure to replace placeholders such as `your_google_client_id`, `your_google_client_secret`, `your_mongo_db_uri`, and `your_zapier_webhook_url` with your actual credentials and URLs.
 
